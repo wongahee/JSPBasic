@@ -3,7 +3,7 @@
 <%@ taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 
-<c:set var="url">jdbc:mariadb://bigdata.cfss7vpoctox.ap-northeast-2.rds.amazonaws.com:3306/playground</c:set>
+<c:set var="url">jdbc:mariadb://[아마존주소]:3306/playground</c:set>
 <c:set var="drv">org.mariadb.jdbc.Driver</c:set>
 <c:set var="usr">playground</c:set>
 <c:set var="pwd">bigdata2020</c:set>

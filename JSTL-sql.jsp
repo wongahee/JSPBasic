@@ -14,7 +14,7 @@
 	<h2>sql:update - insert,update,delete 질의문 실행</h2>
 	<h2>sql:param - 질의문에 매개변수 전달</h2>
 	
-	<c:set var="url">jdbc:mariadb://bigdata.cfss7vpoctox.ap-northeast-2.rds.amazonaws.com:3306/playground</c:set>
+	<c:set var="url">jdbc:mariadb://[아마존주소]:3306/playground</c:set>
 	<c:set var="drv">org.mariadb.jdbc.Driver</c:set>
 	<c:set var="usr">playground</c:set>
 	<c:set var="pwd">bigdata2020</c:set>
